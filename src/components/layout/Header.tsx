@@ -1,4 +1,3 @@
-import ThemeToggle from "../common/ThemeToggle";
 import { Container } from "./Container";
 
 export default function Header() {
@@ -7,9 +6,9 @@ export default function Header() {
    <Container>
     <nav className="flex items-center justify-between py-2">
      <div>Logo</div>
-     <div className="flex items-center gap-2">
+     {/* <div className="flex items-center gap-2">
       <ThemeToggle />
-     </div>
+     </div> */}
     </nav>
    </Container>
   </header>
