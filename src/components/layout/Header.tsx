@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
@@ -40,16 +39,12 @@ export function Header() {
  const getBackgroundClass = () => {
   return hasScrolled ? "bg-black/40 backdrop-blur-lg " : "bg-black";
  };
-=======
-import { Container } from "./Container";
->>>>>>> 1b6d885d224adcca8256b9be3f7f92f5c4b5007b
 
  return (
   <header
    className={`text-white w-full z-50 sticky top-0 inset-x-0 transition-all duration-300  ${getBackgroundClass()} `}
   >
    <Container>
-<<<<<<< HEAD
     <div className="flex justify-between items-center py-2 min-h-[66px] relative">
      <div className="flex items-center gap-10">
       <SiteLogo />
@@ -78,14 +73,6 @@ import { Container } from "./Container";
       </Link>
      </div>
     </div>
-=======
-    <nav className="flex items-center justify-between py-2">
-     <div>Logo</div>
-     {/* <div className="flex items-center gap-2">
-      <ThemeToggle />
-     </div> */}
-    </nav>
->>>>>>> 1b6d885d224adcca8256b9be3f7f92f5c4b5007b
    </Container>
   </header>
  );

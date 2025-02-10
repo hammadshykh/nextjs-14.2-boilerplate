@@ -19,27 +19,12 @@ export default function RootLayout({
  children: React.ReactNode;
 }>) {
  return (
-<<<<<<< HEAD
   <html lang="en">
    <body className={`${inter.className} antialiased`}>
     <AnnouncementBar />
     <Header />
     {children}
     <Footer />
-=======
-  <html lang="en" suppressHydrationWarning>
-   <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-    <body>
-     <ThemeProvider
-      attribute="class"
-      defaultTheme="dark"
-      enableSystem
-      disableTransitionOnChange
-     >
-      {children}
-     </ThemeProvider>
-    </body>
->>>>>>> 1b6d885d224adcca8256b9be3f7f92f5c4b5007b
    </body>
   </html>
  );
